@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/form.css">   
+</head>
+
+<body>
+   <nav>
+      <label for="theme" class="theme">
+          <span class="theme__toggle-wrap">
+              <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="light">
+              <span class="theme__fill"></span>
+              <span class="theme__icon">
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+                  <span class="theme__icon-part"></span>
+              </span>
+          </span>
+      </label>
+  </nav>
+ <h1>
+    My First Blog
+ </h1>   
+ <h2> 
+    Whats on your mind?
+</h2>
+ <form>
+    <label for="userName">Username</label>
+    <input id="userName" type="text"/>
+    <label for="title">Title</label>
+    <input id="title" type="text"/>
+    <label for="content">Content</label>
+    <textarea id="content" type="text" rows="5"></textarea>
+    <button id="submitBtn" type="button">Submit</button>
+ </form>
+
+
+</body>
+<script src="./assets/js/logic.js"></script>
+<script src="./assets/js/form.js"></script>
+</html>
